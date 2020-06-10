@@ -13,7 +13,7 @@
 #### 11.[PHP 7 use 语句](http://runoops.com/php7use.html)
 #### 12.[PHP 7 错误处理](http://runoops.com/php7error.html)
 #### 13.[PHP intdiv() 函数](http://runoops.com/php7intdiv.html)
-#### 14[PHP 7 Session 选项](http://runoops.com/php7session.html)
+#### 14.[PHP 7 Session 选项](http://runoops.com/php7session.html)
 #### 15.[PHP 7 废弃特性](http://runoops.com/php7deprecated.html)
 #### 16.[PHP 7 移除的扩展](http://runoops.com/php7removedext.html)
 #### 17.[PHP 7 移除的 SAPI](http://runoops.com/php7removesapi.html)
