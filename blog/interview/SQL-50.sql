@@ -1,3 +1,4 @@
+-------SQL经典面试题--------
 --建表
 --学生表
 CREATE TABLE `Student`(
