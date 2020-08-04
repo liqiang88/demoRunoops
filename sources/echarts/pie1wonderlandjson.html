@@ -13,7 +13,7 @@
     <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
         //主题名称是 wonderland
-        $.getJSON('/static/js/wonderland.json', function (themeJSON) {
+        $.getJSON('http://demo.runoops.com/static/js/wonderland.json', function (themeJSON) {
             echarts.registerTheme('wonderland',themeJSON)
             var myChart = echarts.init(document.getElementById('main'), 'wonderland');
         
