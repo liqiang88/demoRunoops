@@ -33,14 +33,7 @@ $fileContent = file_get_contents($file);
 </head>
 <body>
 <style type="text/css">
-    .container {
-        width: 98%;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto
-    }
-    
+
     @media screen and (max-width: 768px) {
         #textareaCode {
             height: 300px
@@ -58,6 +51,16 @@ $fileContent = file_get_contents($file);
         .form-inline {
             padding: 6px 0 2px 0
         }
+    }
+
+    #iframeResult {
+        display: block;
+        overflow: hidden;
+        border: 0 !important;
+        min-width: 100px;
+        width: 100%;
+        min-height: 300px;
+        background-color: #fff
     }
 
 </style>
