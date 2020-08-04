@@ -1,14 +1,30 @@
 <?php
-$file = isset($_GET['file']) ? $_GET['file'].'.html' : '';
+$file = isset($_GET['file']) ? $_GET['file'] : '';
 
 //echo $file;die;
 if(strlen($file) > 100){
     die('请求不正确');
-}else if (!file_exists($file)){
+}
+
+
+$subfix = '.html';
+$filePath = '';
+if($file){
+    $fileArr = explode("_",$file);
+    foreach ($fileArr as $key => $value) {
+        $filePath .= $value;
+        $filePath .= '/';
+    }
+
+    $filePath  = rtrim($filePath,'/');
+    $filePath = $filePath.$subfix;
+}
+
+if (!file_exists($filePath)){
     die('File not fond');
 }
 
-$fileContent = file_get_contents($file);
+$fileContent = file_get_contents($filePath);
 
 ?>
 <!DOCTYPE html>
@@ -34,7 +50,16 @@ $fileContent = file_get_contents($file);
 <body>
 <style type="text/css">
 
+    .container {
+        width: 98%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto
+    }
+
     @media screen and (max-width: 768px) {
+
         #textareaCode {
             height: 300px
         }

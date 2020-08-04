@@ -1,6 +1,5 @@
 .idea
 .git
 .log
-..htaccess
+.htaccess
 .user.ini
-try.php
