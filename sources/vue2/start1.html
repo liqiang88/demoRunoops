@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Vue 测试实例 - 自学教程(runoops.com)</title>
+	<script src="https://cdn.staticfile.org/vue/2.6.12/vue.min.js"></script>
+</head>
+<body>
+	<div id="vue_det">
+		<h1>site : {{site}}</h1>
+		<h1>url : {{url}}</h1>
+		<h1>{{details()}}</h1>
+	</div>
+	<script type="text/javascript">
+		var vm = new Vue({
+			el: '#vue_det',
+			data: {
+				site: "自学教程",
+				url: "runoops.com",
+				alexa: "100000"
+			},
+			methods: {
+				details: function() {
+					return  this.site + " - 自学编程教程";
+				}
+			}
+		})
+	</script>
+</body>
+</html>
