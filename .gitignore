@@ -3,5 +3,5 @@
 .log
 .htaccess
 .user.ini
-./try.php
-./tryadm.php
+.try.php
+.tryadm.php
