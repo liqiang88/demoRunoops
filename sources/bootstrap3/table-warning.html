@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 实例 - 表格</title>
+    <title>Bootstrap 实例 - 排版</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -13,9 +13,30 @@
   <body>
     
 <div class="container">
-  <h2>代码</h2>
-  <p>使用 samp 元素包含电脑输出的内容:</p>
-  <p><samp>This text is output from a computer program....</samp></p>
+  <h2>表格</h2>
+  <p> .warning 类表示一个警告操作:</p>                                                                      
+  <table class="table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Firstname</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="warning">
+        <td>1</td>
+        <td>Anna</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Debbie</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>John</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
