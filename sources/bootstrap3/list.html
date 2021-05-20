@@ -4,39 +4,55 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>Bootstrap 实例 - 列的顺序</title>
+    <title>Bootstrap 实例 - 列表</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   </head>
   <body>
     
-	  <div class="container">
-    <h1>Hello, world!</h1>
-    <div class="row">
-        <p>
-            排序前
-        </p>
-        <div class="col-md-4" style="background-color: #dedef8; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
-         我在左边
-        </div>
-        <div class="col-md-8" style="background-color: #dedef8; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
-         我在右边
-        </div>
-    </div>
-    <br>
-    <div class="row">
-        <p>
-            排序后
-        </p>
-        <div class="col-md-4 col-md-push-8" style="background-color: #dedef8; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
-         我在左边
-        </div>
-        <div class="col-md-8 col-md-pull-4" style="background-color: #dedef8; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
-         我在右边
-        </div>
-    </div>
-</div>
+	 <h4>有序列表</h4>
+<ol>
+	<li>Item 1</li>
+	<li>Item 2</li>
+	<li>Item 3</li>
+	<li>Item 4</li>
+</ol>
+<h4>无序列表</h4>
+<ul>
+	<li>Item 1</li>
+	<li>Item 2</li>
+	<li>Item 3</li>
+	<li>Item 4</li>
+</ul>
+<h4>未定义样式列表</h4>
+<ul class="list-unstyled">
+	<li>Item 1</li>
+	<li>Item 2</li>
+	<li>Item 3</li>
+	<li>Item 4</li>
+</ul>
+<h4>内联列表</h4>
+<ul class="list-inline">
+	<li>Item 1</li>
+	<li>Item 2</li>
+	<li>Item 3</li>
+	<li>Item 4</li>
+</ul>
+<h4>定义列表</h4>
+<dl>
+	<dt>Description 1</dt>
+	<dd>Item 1</dd>
+	<dt>Description 2</dt>
+	<dd>Item 2</dd>
+</dl>
+<h4>水平的定义列表</h4>
+<dl class="dl-horizontal">
+	 <dt>Description 1</dt>
+	 <dd>Item 1</dd>
+	 <dt>Description 2</dt>
+	 <dd>Item 2</dd>
+</dl>
 
     <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>

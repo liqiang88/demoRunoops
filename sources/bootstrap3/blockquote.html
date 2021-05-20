@@ -4,39 +4,27 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>Bootstrap 实例 - 列的顺序</title>
+    <title>Bootstrap 实例 - 引用（Blockquote）</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
   </head>
   <body>
     
-	  <div class="container">
-    <h1>Hello, world!</h1>
-    <div class="row">
-        <p>
-            排序前
-        </p>
-        <div class="col-md-4" style="background-color: #dedef8; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
-         我在左边
-        </div>
-        <div class="col-md-8" style="background-color: #dedef8; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
-         我在右边
-        </div>
-    </div>
-    <br>
-    <div class="row">
-        <p>
-            排序后
-        </p>
-        <div class="col-md-4 col-md-push-8" style="background-color: #dedef8; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
-         我在左边
-        </div>
-        <div class="col-md-8 col-md-pull-4" style="background-color: #dedef8; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
-         我在右边
-        </div>
-    </div>
-</div>
+	  <blockquote>
+  <p>
+  这是一个默认的引用实例。这是一个默认的引用实例。这是一个默认的引用实例。这是一个默认的引用实例。这是一个默认的引用实例。这是一个默认的引用实例。这是一个默认的引用实例。这是一个默认的引用实例。
+  </p>
+</blockquote>
+<blockquote>
+  这是一个带有源标题的引用。
+  <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+</blockquote>
+<blockquote class="pull-right">
+  这是一个向右对齐的引用。
+  <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+</blockquote>
 
     <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
